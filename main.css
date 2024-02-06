@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "JioType",helvetica,arial,sans-serif;
+}
+
+#nav{
+    /* border: 2px solid red; */
+    height: 70px;
+    background-color: #0070ad;
+    
+}
+
+#sub-nav{
+    /* border: 2px solid green; */
+    height: inherit;
+   
+}
+
+#left-ol {
+    /* border: 2px solid; */
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 8%;position: absolute;
+    font-size: 14px;
+    color: #fff;
+}
+
+#right-ol{
+    /* border: 2px solid; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 65%;
+    position: absolute;
+    top: 3%;
+    font-size: 14px;
+    color: #fff;
+}
+
+#search{
+    position: absolute;
+    top: 20%;
+    left: -5%;
+}
+
+#right-ol form input{
+    position: absolute;
+    width: 60%;
+    top: -20%;
+    height: 35px;
+    left: 0%;
+    
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
+
+#bar{
+    position: absolute;
+    top: 25%;
+    right: 45%;
+    color: #fff;
+}
+
+#cart{
+    position: absolute;
+    right: 30%;
+    top: 35%;
+    color: #fff;
+}
+
+#user{
+    position: absolute;
+    right: 13%;
+    top: 20%;
+    color: #fff;
+    font-size: 18px;
+}
+
+#sub-nav2{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: #0c5273;
+    color: #fff;
+    
+}
+
+#sub-nav2 ol{
+    /* border: 2px solid; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.07px;
+    position: absolute;
+}
+
+#carouselExample{
+    margin-top: 3%;
+    width: 100%; 
+}
+
+#card{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%; 
+}
+
+#card1{
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    line-height: 1 !important;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.card {
+    border: none;
+    
+}
+
+#card2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#card2 h2{
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    line-height: 1 !important;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+#card2 .card{
+    margin-top: 50px;
+}
+
+.card-body{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    letter-spacing: -0.07px !important;
+    line-height: 1.4285714286 !important;
+}
+
+.card-body a button{
+    width: 550%;
+    border:none;
+    height: 25px;
+    /* background: transparent; */
+}
+
+.card-body a button i{
+    position: absolute;
+    right: 10%;
+    top: 90%;
+}
+
+#carousel{
+    position: absolute;
+    margin-top: 3%;
+    width: 100%; 
+}
+
+#card3{
+    position: absolute;
+    top: 255%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#card4{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 300%;
+    margin-left: 5%;
+}
+
+#card4 h2{
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    line-height: 1 !important;
+    margin-left: 2%;
+    position: absolute;
+    top: -15%;
+}
+
+#card5{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 345%;
+    margin-left: 5%;
+}
+
+#card5 h2{
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    line-height: 1 !important;
+    margin-left: 2%;
+    position: absolute;
+    top: -15%;
+}
